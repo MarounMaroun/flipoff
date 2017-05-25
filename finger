@@ -1,0 +1,10 @@
+#!/bin/bash
+num=$(shuf -i 1-5 -n 1)
+file="/etc/fingers/finger$num"
+delay=${1:-0.3}
+
+while IFS= read -r var
+do
+    echo "$var"
+    sleep $delay
+done < "$file"
