@@ -18,23 +18,11 @@ sh install.sh
 
 It will slowly raise it so you can enjoy every moment of it.
 
+`:$ finger`
 
-```bash
-:$ finger
-    |_|                       |_|
-    | |         /^^^\         | |
-   _| |_      (| "o" |)      _| |_
- _| | | | _    (_---_)    _ | | | |_
-| | | | |' |    _| |_    | `| | | | |
-|          |   /     \   |          |
- \        /  / /(. .)\ \  \        /
-   \    /  / /  | . |  \ \  \    /
-     \  \/ /    ||Y||    \ \/  /
-      \__/      || ||      \__/
-                () ()
-                || ||
-               ooO Ooo
-```
+
+![FINGER](/imgs/finger.gif)
+
 
 You can specify the speed of the loading, when 0 it'll load the finger immediately:
 
