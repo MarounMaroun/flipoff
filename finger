@@ -1,6 +1,7 @@
 #!/bin/bash
-num=$(shuf -i 1-5 -n 1)
-file="/etc/fingers/finger$num"
+num_of_fingers=$(ls /etc/fingers | wc -l)
+random_finger=$(shuf -i 1-$num_of_fingers -n 1)
+file="/etc/fingers/finger$random_finger"
 delay=${1:-0.3}
 
 while IFS= read -r var
