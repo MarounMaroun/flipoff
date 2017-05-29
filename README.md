@@ -1,6 +1,6 @@
 # finger
 
-When you feel you want to finger someone (including yourself), simply run finger!
+When you feel you want to raise the middle finger for someone (including yourself), simply run finger!
 
 
 ### Installing
@@ -8,7 +8,7 @@ When you feel you want to finger someone (including yourself), simply run finger
 Download the files and run
 
 ```bash
-sh install.sh
+sudo sh install.sh
 ```
 
 
@@ -22,7 +22,6 @@ It will slowly raise it so you can enjoy every moment of it.
 
 
 ![FINGER](/imgs/finger.gif)
-
 
 You can specify the speed of the loading, when 0 it'll load the finger immediately:
 
@@ -48,3 +47,5 @@ You can specify the speed of the loading, when 0 it'll load the finger immediate
     |--\_|_//--|
 
 ```
+
+<sup>If you're using the major UNIX command `finger`, you can change the file name and edit `install.sh` accordingly</sup>

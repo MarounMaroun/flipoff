@@ -1,2 +1,3 @@
-sudo cp finger /usr/bin/
-sudo cp -r fingers /etc/
+cp finger /usr/bin/
+cp -r fingers /etc/
+echo "Done ╭∩╮(Ο_Ο)╭∩╮"
