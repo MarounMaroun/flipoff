@@ -8,9 +8,18 @@ When you feel you want to raise the middle finger for someone (including yoursel
 Download the files and run
 
 ```bash
-sudo sh install.sh
+sudo sh install.sh <name of executable>
 ```
 
+For example:
+
+```bash
+sudo sh install.sh raiseit
+```
+
+If you don't supply executable name, it'll default to "finger".
+
+<sup>Note that if you're using the major UNIX command `finger`, it'll be overriden if you don't provide a name</sup>
 
 ### Running
 
@@ -47,5 +56,3 @@ You can specify the speed of the loading, when 0 it'll load the finger immediate
     |--\_|_//--|
 
 ```
-
-<sup>If you're using the major UNIX command `finger`, you can change the file name and edit `install.sh` accordingly</sup>
