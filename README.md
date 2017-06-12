@@ -1,6 +1,6 @@
 # finger
 
-When you feel you want to raise the middle finger for someone (including yourself), simply run finger!
+When you feel you want to raise the middle finger for someone, simply run finger!
 
 
 ### Installing
