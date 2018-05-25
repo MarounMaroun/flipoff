@@ -1,4 +1,4 @@
-# finger
+# finger 🖕
 
 When you want to flip someone off, simply run finger!
 
