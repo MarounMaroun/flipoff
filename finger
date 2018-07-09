@@ -1,11 +1,19 @@
 #!/bin/bash
-num_of_fingers=$(ls /etc/fingers | wc -l)
-random_finger=$(shuf -i 1-$num_of_fingers -n 1)
+
+num_of_fingers=$(find /etc/fingers | wc -l)
+
+if [[ $OSTYPE =~ .*darwin.* ]]
+then
+    random_finger=$(gshuf -i "1-$((num_of_fingers - 1))" -n 1)
+else
+    random_finger=$(shuf -i "1-$num_of_fingers" -n 1)
+fi
+
 file="/etc/fingers/finger$random_finger"
 delay=${1:-0.3}
 
 while IFS= read -r var
 do
     echo "$var"
-    sleep $delay
+    sleep "$delay"
 done < "$file"

@@ -1,6 +1,6 @@
 command="${1:-finger}"
 
-cp finger $command
-cp $command /usr/bin/
-cp -r fingers /etc/
+sudo cp finger $command
+sudo cp $command /usr/local/bin/
+sudo cp -r fingers /etc/
 echo "Done ╭∩╮(Ο_Ο)╭∩╮"

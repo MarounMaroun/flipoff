@@ -8,13 +8,13 @@ When you want to flip someone off, simply run finger!
 Download the files and run
 
 ```bash
-sudo sh install.sh <name of executable>
+sh install.sh <name of executable>
 ```
 
 For example:
 
 ```bash
-sudo sh install.sh raiseit
+sh install.sh raiseit
 ```
 
 If you don't supply executable name, it'll default to "finger".
