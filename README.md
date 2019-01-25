@@ -1,6 +1,6 @@
-# finger 🖕
+# Flip Off 🖕
 
-When you want to flip someone off, simply run finger!
+When you want to flip someone off, simply run flipoff!
 
 
 ### Installing
@@ -17,17 +17,15 @@ For example:
 sh install.sh raiseit
 ```
 
-If you don't supply executable name, it'll default to "finger".
-
-<sup>Note that if you're using the major UNIX command `finger`, it'll be overriden if you don't provide a name</sup>
+If you don't supply executable name, it'll default to "flipoff".
 
 ### Running
 
-`finger` selects a random finger and raises it for you.
+`flipoff` selects a random finger and raises it for you.
 
 It will slowly raise it so you can enjoy every moment of it.
 
-`:$ finger`
+`:$ flipoff`
 
 
 ![FINGER](/imgs/finger.gif)
@@ -35,7 +33,7 @@ It will slowly raise it so you can enjoy every moment of it.
 You can specify the speed of the loading, when 0 it'll load the finger immediately:
 
 ```bash
-:$ finger 0
+:$ flipoff 0
          /"\
         |\./|
         |   |
