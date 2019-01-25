@@ -1,6 +1,6 @@
-command="${1:-finger}"
+command="${1:-flipoff}"
 
-sudo cp finger $command
+sudo cp flipoff $command
 sudo cp $command /usr/local/bin/
 sudo cp -r fingers /etc/
 echo "Done ╭∩╮(Ο_Ο)╭∩╮"
